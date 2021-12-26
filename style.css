@@ -332,7 +332,7 @@ form input[type=submit]:hover {
 }
 
 .hero img {
-  max-width: 900px;
+  /*max-width: 900px;*/
   width: 100%;
   height: auto;
   margin: auto;
@@ -542,6 +542,11 @@ footer {
   cursor: pointer;
 }
 
+.download-button {
+  width: 250px !important;
+  display: inline;
+  height: 74px !important;
+}
 /* Responsive Design Breakpoints ********************************/
 
 @media only screen and (max-width: 768px) {

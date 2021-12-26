@@ -21,7 +21,7 @@
   <meta name="theme-color" content="#222">
 
   <!-- Page Title -->
-  <title>A Quick Product Landing Page | @sohailsarwar101</title>
+  <title>IOTA Node Manager</title>
 
   <!-- CSS Style File -->
   <link rel="stylesheet" href="style.css">
@@ -34,16 +34,16 @@
     <!-- Navigation -->
     <nav>
       <div class="branding">
-        <h1><a href="/">Only.</a></h1>
+        <h1><a href="/">IOTA Node Manager</a></h1>
       </div>
       <ul class="main-nav">
+        <li><a class="link" href="#download">Download</a></li>
         <li><a class="link" href="#feature">Features</a></li>
-        <li><a class="link" href="#notify">Get notify</a></li>
-        <li><a class="link" href="mailto:hello@email.com">Contact</a></li>
-      </ul>
-      <ul class="social-icon">
-        <li><a href=""><img src="img/github.svg" alt=""> </a></li>
-        <li><a href=""><img src="img/twitter.svg" alt=""> </a></li>
+        <li><a href="https://github.com/iota-community/iota-node-manager" target="_blank"><img alt=""
+                                                                                               src="img/github.svg">
+        </a></li>
+        <li><a href="https://twitter.com/marcel_pochert" target="_blank"><img alt="" src="img/twitter.svg"
+                                                                              style="height: 24px"> </a></li>
       </ul>
     </nav>
 
@@ -51,58 +51,40 @@
       <!-- Hero heading Subscription form and Image -->
       <div class="hero">
 
-        <h2>Level up your workflow</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit, itaque pariatur possimus alias quod.</p>
-
-        <form action="/">
-          <input type="email" id="email" name="email" value="" placeholder="Type your email" required>
-          <input type="submit" value="Early access">
-        </form>
-        <p class="version">V0.8.3 <span>Beta</span></p>
+        <h2>Manage multiple nodes with ease!</h2>
+        <p>The IOTA Node Manager allows you to manage your hosted Hornet & Bee nodes using your mobile device
+          (Supporting iOS and Android)</p>
+        <br/>
+        <p class="version">V2.0.0 <span>Stable</span></p>
         <div class="hero-banner">
-          <img src="img/hero-img.png" alt="">
-          <p class="into-video"><a class="link" href="">View introduction video</a></p>
-        </div>
-
-      </div>
-
-
-      <!-- Hero heading Subscription form and Image -->
-      <div class="hero sub-hero" id="feature">
-        <h3>Turn on superpowers</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit, pariatur possimus alias quod et expedita
-          distinctio.</p>
-      </div>
-
-      <div class="top-feature">
-        <div class="f-info">
-          <h4>Turn on superpowers</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit, pariatur possimus alias quod et expedita
-            distinctio.</p>
-          <a href="" class="learn-more link">Learn more</a>
-        </div>
-        <div class="f-banner">
-          <img src="img/feature-img.png" alt="">
+          <img alt="" src="img/appShowcase.png">
         </div>
       </div>
 
-
+      <section class="download" id="download">
+        <div class="hero sub-hero">
+          <h3>Download the app now!</h3>
+          <a href='https://play.google.com/store/apps/details?id=de.pochert.hornetNode&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+             target="_blank">
+            <img alt='Get it on Google Play' class="download-button" src='img/playstoreDownload.png' width="250"/>
+          </a>
+          <a href='https://apps.apple.com/at/app/hornet-node-manager/id1574732199' target="_blank">
+            <img alt='Get it on Google Play' class="download-button" src='img/appStoreDownload.svg' width="250"/>
+          </a>
+        </div>
+      </section>
       <div class="hero sub-hero">
-        <h3>Next level of superpowers</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit, pariatur possimus alias quod et expedita
-          distinctio.</p>
+        <h3>Features:</h3>
       </div>
 
       <!-- Feature Section -->
       <section class="feature" id="feature">
-
         <div>
           <div class="icon"><img src="img/click.svg" alt=""></div>
           <div class="f-content">
-            <h3>Accusamus et iusto</h3>
+            <h3>Multiple Node Support</h3>
             <p>
-              Et harum quidem rerum facilis <a class="link" href="">est et expedita</a> et expedita distinctio. Nam
-              libero tempore, cum soluta nobis est.
+              Add multiple nodes and easily switch between them using a dropdown
             </p>
           </div>
         </div>
@@ -110,9 +92,10 @@
         <div>
           <div class="icon"><img src="img/gear.svg" alt=""></div>
           <div class="f-content">
-            <h3>Vero eos et accusamus</h3>
+            <h3>Support for various nodes</h3>
             <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod.
+              You are able to manage <a href="https://github.com/gohornet/hornet" target="_blank">Hornet Nodes</a> as
+              well as <a href="https://github.com/iotaledger/bee" target="_blank">Bee nodes</a> with this manager
             </p>
           </div>
         </div>
@@ -120,9 +103,10 @@
         <div>
           <div class="icon"><img src="img/statistics.svg" alt=""></div>
           <div class="f-content">
-            <h3>Accusamus et iusto</h3>
+            <h3>Manage Peers</h3>
             <p>
-              Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est.
+              View, manage and edit the peers of each node. Deep dive into each peer and observe the status, metrics and
+              other information of it
             </p>
           </div>
         </div>
@@ -130,54 +114,14 @@
         <div>
           <div class="icon"><img src="img/folder.svg" alt=""></div>
           <div class="f-content">
-            <h3>Geroeos et accusamus</h3>
+            <h3>Monitor the network</h3>
             <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.
+              Discover the latest milestones and deep dive into related messages
             </p>
           </div>
         </div>
 
       </section>
-
-      <!-- Follow Section -->
-      <section class="follow">
-        <div>
-          <div class="icon"><img src="img/slack.svg" alt=""></div>
-          <div class="f-content">
-            <h3>Be a part</h3>
-            <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod.
-            </p>
-          </div>
-        </div>
-
-        <div class="twitter">
-          <div class="icon"><img src="img/twitter.svg" alt=""></div>
-          <div class="f-content">
-            <h3>Saty up to date</h3>
-            <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod.
-            </p>
-          </div>
-        </div>
-
-      </section>
-
-
-      <!-- Get Notify Section -->
-      <section class="hero sub-hero" id="notify">
-
-        <h3>Get notify earlier!</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit, itaque pariatur possimus alias quod.</p>
-
-        <form action="/">
-          <input type="email" id="email" name="email" value="" placeholder="Type your email" required>
-          <input type="submit" value="Subscribe">
-        </form>
-      </section>
-
-
-
     </main>
   </div>
 
@@ -185,10 +129,9 @@
   <footer>
     <div class="footer-link">
       <ul>
-        <li><a class="link" href="">Press Kit</a></li>
-        <li><a class="link" href="">Download</a></li>
-        <li><a class="link" href="">Privacy & Terms</a></li>
-        <li><a class="link" href="mailto:hello@email.com">Get in touch</a></li>
+        <li><a class="link" href="#download">Download</a></li>
+        <li><a class="link" href="https://www.freeprivacypolicy.com/live/c168e039-798d-4e76-b5f9-d7d11f6bd994"
+               target="_blank">Privacy & Terms</a></li>
       </ul>
       <p class="copyright-text">Copyright © 0000.</p>
 
